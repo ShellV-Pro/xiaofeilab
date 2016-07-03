@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>小飞工作室</title>
+	<link href="https://tat.pics/v/1466256958218favicon.png" rel="shortcut icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://static.runoob.com/assets/foundation-5.5.3/foundation.min.css">
+	<script src="http://static.runoob.com/assets/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://static.runoob.com/assets/foundation-5.5.3/js/foundation.min.js"></script>
+	<script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+	<style>
+	body:before {content: "";
+			background: url(https://tat.pics/v/146754024246451314d732f7d3.jpg);
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: -1;
+			
+			margin: -10px;
+			
+			}
+			img.avatar.photo {
+			border-radius: 100%;
+			-moz-border-radius: 100%;
+			}
+			.center{text-align:center;}
+	.m1 h1,.m1 p{
+	color:#FFFFFF;
+	text-shadow:2px 3px 2px #333333;
+	text-align:center;
+	}
+	.m1 h1{font-size:500%;}
+	.m1{text-align:center;/*margin-left:20%;*/}
+	.mm1{margin cop}
+	.m2{
+	background:#CCCC33;
+	}
+	.transButton{background-color:transparent;
+		border:2px solid;
+		border-radius:25px;
+		-moz-border-radius:25px; /* Old Firefox */
+		border:;
+	}
+	footer{padding:10%;}
+	
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="top-bar" data-topbar>
+			<ul class="title-area">
+			<li class="name">
+				<h1><a href="#">小飞工作室</a></h1>
+			</li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span>菜单</span></a></li>
+			</ul>
+		
+			<section class="top-bar-section">
+					<ul class="left">
+						<li class="active"><a href="#">首页</a></li>
+					</ul>
+			</section>
+		</nav>
+	</head>
+	<section>
+		<section class="m1" id="m1">
+			<section class="mm1" id="mm1">
+				<h1>小飞工作室</h1>
+				<p>一个专业做游戏服务器开发的工作室</p>
+			</section>
+			<section class="mm2">
+				<button id="button1"  Class="transButton">关注我们</button>
+			</section>
+		</section>
+	<section>
+	<footer style="color:#eeeeee;">
+		<a href="http://linux.dog/" target="_blank">website　by: 电磁泡Shellv</a>
+	</footer>
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+var 高度 = document.documentElement.clientHeight;
+		var 半个高度 = 高度*0.35;
+		var 半半个高度 = 高度*0.1;
+		document.getElementById("m1").style.height=高度+"px";
+		document.getElementById("mm1").style.padding=半个高度+"px"+" 0 0 0";
+</script>
+</body>
+</html>
